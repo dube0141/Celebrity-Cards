@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="jumbotron">
+		<img ng-src="../data/img/{{item.image}}.jpg" alt="{{item.full_name}}">
+		<h1>Details about {{item.full_name}}</h1>
+		<h2>About</h2>
+		<p>{{item.about}}</p>
+		<p><strong>Number of Awards:</strong> {{item.awards}}</p>
+		<p><strong>Salary:</strong> {{item.salary | currency}}</p>
+	</div>
+</div>
+
+<div class="row">
+	<a href="#/" class="btn btn-primary btn-lg">Back to List</a>
+</div>
